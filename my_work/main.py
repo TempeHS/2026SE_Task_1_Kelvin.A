@@ -32,6 +32,7 @@ if user == '1':
                 sys.exit(1)
     except IndexError:
         print('in format of "username,password"')
+## User register 
 elif user == '2':
     new = input("new username and password? (A,B): ").split(',')
     user_2,password_2 = new[0], new[1]
